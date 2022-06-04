@@ -9,7 +9,7 @@ import SwiftUI
 struct homeView3 : View{
     var body: some View{
         NavigationView{
-            
+            navigationTitle("성수고 우산대여")
             HStack{
                 NavigationLink(destination:
                     MynavigationView()
@@ -21,15 +21,21 @@ struct homeView3 : View{
                         .background(Color.blue)
                         .foregroundColor(Color.white)
                         .cornerRadius(20)
-                    Text("우산 보기")
+                
+                
+                }
+                NavigationLink(destination:
+                    MynavigationView2()
+                ){
+                    Text("우산 반납하기")
                         .font(.system(size: 20))
                         .fontWeight(.bold)
                         .padding(20)
                         .background(Color.blue)
                         .foregroundColor(Color.white)
                         .cornerRadius(20)
-                
                 }
+                                
             }
             
         }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		104BF8C9284B49F5008D1145 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104BF8C8284B49F5008D1145 /* File2.swift */; };
 		108FEC14284A5025009E431C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FEC13284A5025009E431C /* File.swift */; };
 		108FEC16284A521D009E431C /* homeView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FEC15284A521D009E431C /* homeView3.swift */; };
 		FA8C1CFB283A937E000D1F5C /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8C1CFA283A937E000D1F5C /* MyWebView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		104BF8C8284B49F5008D1145 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		108FEC13284A5025009E431C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		108FEC15284A521D009E431C /* homeView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView3.swift; sourceTree = "<group>"; };
 		FA8C1CFA283A937E000D1F5C /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
@@ -114,18 +116,11 @@
 				FA8C1CFA283A937E000D1F5C /* MyWebView.swift */,
 				FABAD56C283B531F00E0B8E0 /* homeView2.swift */,
 				108FEC15284A521D009E431C /* homeView3.swift */,
+				104BF8C8284B49F5008D1145 /* File2.swift */,
 				FAD93536282B6C6900F25F71 /* Preview Assets.xcassets */,
 				FAD93533282B6C6900F25F71 /* Assets.xcassets */,
-				FAD93535282B6C6900F25F71 /* Preview Content */,
 			);
 			path = project;
-			sourceTree = "<group>";
-		};
-		FAD93535282B6C6900F25F71 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		FAD9353F282B6C6A00F25F71 /* projectTests */ = {
@@ -279,6 +274,7 @@
 				108FEC16284A521D009E431C /* homeView3.swift in Sources */,
 				FA8C1CFB283A937E000D1F5C /* MyWebView.swift in Sources */,
 				108FEC14284A5025009E431C /* File.swift in Sources */,
+				104BF8C9284B49F5008D1145 /* File2.swift in Sources */,
 				FABAD56D283B531F00E0B8E0 /* homeView2.swift in Sources */,
 				FABAD56B283A95D200E0B8E0 /* homeView1.swift in Sources */,
 				FAD93532282B6C6800F25F71 /* ContentView.swift in Sources */,
@@ -442,7 +438,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"project\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -470,7 +466,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"project/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"project\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
